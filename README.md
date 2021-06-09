@@ -5,12 +5,14 @@ A command-line tool for cross-platform building in MonoGame.
 ## Usage
 
 ```
-monobuild <windows | linux | mac>
+monobuild <windows | linux | mac> [--nozip]
 ```
 
 Run from within the home directory of your MonoGame project.
 
-Builds a MonoGame project into a zipped executable.
+Builds a MonoGame project and compiles a zipped executable.
+
+Use `--nozip` to build without a zipped executable.
 
 ## Installation
 
